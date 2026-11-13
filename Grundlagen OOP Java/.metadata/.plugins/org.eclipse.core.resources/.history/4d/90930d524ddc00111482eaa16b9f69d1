@@ -1,0 +1,7 @@
+public class MehrfacheAlternativeTest{
+	public static void main(String[] args) {
+		long preisInCent = 1350;
+		
+		
+	}
+}

@@ -1,0 +1,23 @@
+public class LampeTest{
+	public static void main(String[] args) {
+		Lampe wohnZimmerLampe = new Lampe();
+		System.out.print("Wohnzimmerlampe: ");
+		if(wohnZimmerLampe.isAn()) {
+			System.out.print("an");
+		}
+		else {
+			System.out.print("aus");
+		}
+		System.out.print(", Helligkeit: ");
+		System.out.println(wohnZimmerLampe.getHelligkeit());
+		
+		Lampe flurLampe = new Lampe();
+		flurLampe.setAn(true);
+		flurLampe.setHelligkeit(20);
+		
+		System.out.print("Flurlampe: "+ (flurLampe.isAn() ? "an":"aus")+ ","
+				+ " Helligkeit: "+(flurLampe.getHelligkeit()));
+		
+		
+	}
+}

@@ -1,0 +1,18 @@
+
+public class RaumTest {
+	public static void main(String[] args) {
+		Raum room = new Raum("1","Wohnzimmer");
+		System.out.println(room.toString());
+		Lampe l = new Lampe("L","Lampe");
+		
+		for(int i = 0; i<=12; i++) {
+			try {
+				room.geraetHinzufuegen(l);
+			}catch(RaumVollException e) {
+				System.out.println(e);
+			}
+			
+		}
+	}
+
+}

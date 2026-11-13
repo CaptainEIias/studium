@@ -1,0 +1,7 @@
+
+public class RaumVollException {
+	public RaumVollEsception(String message) {
+		
+	}
+
+}

@@ -1,0 +1,11 @@
+
+public class NullPointerTest {
+	public static void main(String[] args) {
+		String text = null;
+		System.out.println(text.length());
+		
+		Object[] arr = new Object[2];
+		
+		
+	}
+}

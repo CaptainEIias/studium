@@ -1,0 +1,10 @@
+
+public interface IGeometrischeFigur {
+	public abstract double berechneUmfang();
+	public abstract double berechneFlaecheninhalt();
+	
+	default string ausgabe() {
+		
+	}
+	
+}

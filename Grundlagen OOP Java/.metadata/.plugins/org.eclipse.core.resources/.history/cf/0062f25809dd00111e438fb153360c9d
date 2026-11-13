@@ -1,0 +1,5 @@
+public class Lampe{
+	private boolean an;
+	private int helligkeit;
+	
+}

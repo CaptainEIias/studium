@@ -1,0 +1,14 @@
+public class GeometrischeFigurTest{
+	public static void main(String[] args) {
+		GeometrischeFigur[] figuren = new GeometrischeFigur[3];
+		figuren[0] = new Rechteck("Rechteck", 3, 4);
+		figuren[1] = new Quadrat("Quadrat A", 5);
+		figuren[2] = new Quadrat("Quadrat B", 6);
+		
+		System.out.println("Alle Figuren im Überblick:");
+		for(GeometrischeFigur figur : figuren) {
+			System.out.println(figur);
+		}
+		
+	}
+}

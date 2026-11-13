@@ -1,0 +1,43 @@
+
+public class LampeV4 {
+	public static final int MAX_HELLIGKEIT = 100;
+	private static int LampenAnzahl = 0;
+	private boolean an = false;
+	private int helligkeit = 0;
+	
+	public LampeV4() {
+		LampenAnzahl++;
+	}
+	
+	public LampeV4(boolean an, int helligkeit) {
+		this();
+		this.an = an;
+		this.helligkeit = helligkeit;
+	}
+	
+	public void einschalten(int helligkeit) {
+		if(helligkeit < 0) { helligkeit = 0;}
+		if(helligkeit > MAX_HELLIGKEIT) {helligkeit = MAX_HELLIGKEIT;}
+		this.helligkeit = helligkeit;
+		einschalten();
+	}
+	
+	public void einschalten() {
+		this.an = true;
+	}
+	
+	public void ausschalten() {
+		this.an = false;
+	}
+	
+	public boolean isAn() {
+		return an;
+	}
+	
+	public int getHelligkeit() {
+		
+	}
+	
+	
+	
+}

@@ -1,0 +1,14 @@
+
+public class ReferenzgleichheitTest {
+
+	public static void main(String[] args) {
+		LampeV2 ref1 = new LampeV2(false, 0);
+		LampeV2 ref2 = new LampeV2(false,0);
+		LampeV2 ref3 = new LampeV2(true,10);
+		
+		System.out.println("ref1: "+ref1+" -> IsAn: "+ref1.isAn()+ ", "
+				+ "Helligkeit: "+ref1.getHelligkeit());
+
+	}
+
+}

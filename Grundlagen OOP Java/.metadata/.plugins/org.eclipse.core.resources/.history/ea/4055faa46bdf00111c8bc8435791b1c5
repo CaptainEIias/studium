@@ -1,0 +1,10 @@
+
+public class Kompaktschreibweise {
+
+	public static void main(String[] args) {
+		// Lambda: foreach(g -> g.ausschalten());
+		
+
+	}
+
+}

@@ -1,0 +1,10 @@
+public class GeometrischeFigur{
+	private String name;
+	
+	
+	public GeometrischeFigur(String name) {
+		this.name = name;
+	}
+	public abstract double berechneUmfang();
+	
+}

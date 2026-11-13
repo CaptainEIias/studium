@@ -1,0 +1,10 @@
+package Übung;
+
+public class geraetEntfernen {
+	private arrayx;
+	
+	public void geraetEntfernen(Geraet geraet) {
+		
+	}
+
+}

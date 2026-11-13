@@ -1,0 +1,12 @@
+public class Lampe{
+	private boolean an;
+	private int helligkeit;
+	
+	public boolean isAn() {
+		return an;
+	}
+	
+	public void setAn(boolean an) {
+		this.an = an;
+	}
+}

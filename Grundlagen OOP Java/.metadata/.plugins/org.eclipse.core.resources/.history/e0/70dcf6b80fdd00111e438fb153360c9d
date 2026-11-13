@@ -1,0 +1,11 @@
+
+public class LampeV2 {
+
+	public static void main(String[] args) {
+		private boolean an;
+		private int helligkeit;
+		
+
+	}
+
+}

@@ -1,0 +1,30 @@
+public class Geraet{
+	private String geraetId;
+	private String name;
+	private boolean an;
+	
+	public Geraet(String geraetId, String name) {
+		this.geraetId = geraetId;
+		this.name = name;
+		this.an = false;
+	}
+	
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	public String getName(String name) {
+		return name;
+	}
+	
+	public void einschalten() {
+		an = true;
+	}
+	
+	public void ausschalten() {
+		an = false;
+	}
+	
+	
+	
+}

@@ -1,0 +1,12 @@
+
+public class LampeTestV4 {
+
+	public static void main(String[] args) {
+		System.out.println("Anzahl der Lampen vor dem Erzeugen: "+
+							LampeV4.getLampenAnzahl());
+		
+		LampeV4 l1 = new LampeV4();
+
+	}
+
+}

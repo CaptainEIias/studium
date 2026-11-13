@@ -1,0 +1,7 @@
+public class GeometrischeFigurTest{
+	public static void main(String[] args) {
+		GeometrischeFigur[] figuren = new GeometrischeFigur[3];
+		figuren[0] = new Rechteck("Rechteck", 3, 4)
+		
+	}
+}

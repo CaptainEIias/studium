@@ -1,0 +1,41 @@
+public class GeraeteTest{
+	public static void main(String[] args) {
+		Geraet geraet = new Geraet("G1", "Allgemeines Gerät");
+		geraet.einschalten();
+		System.out.println("Geraet-Name: "+geraet.getName());
+		System.out.println("Geraet an? "+geraet.isAn());
+		
+		Lampe lampe = new Lampe("L1", "Schreibtischlampe");
+		lampe.einschalten();
+		lampe.dimmen(60);
+		System.out.println("\nLampe-Name: "+lampe.getName());
+		System.out.println("Lampe an? "+lampe.isAn());
+		System.out.println("Lampe Helligkeit: "+lampe.getHelligkeit());
+		
+		Thermostat thermostat = new Thermostat("T1", "Wandthermostat");
+		thermostat.einschalten();
+		thermostat.setZielTemperatur(22);
+		thermostat.setBetriebsart("heizen");
+		System.out.println("\nThermostat-Name: "+thermostat.getName());
+		System.out.println("Thermostat an? "+thermostat.isAn());
+		System.out.println("Thermostat Modus: "+thermostat.getBetriebsart());		
+		System.out.println("Aktuelle Temperatur: "+thermostat.getAktuelleTemperatur());
+		
+		Geraet geraetRef = lampe;
+		System.out.println("\n=== Zugriff über Geraet-Referent ===");
+		System.out.println("Name: "+geraetRef.getName());
+		System.out.println("Ist an? "+geraetRef.isAn());
+		
+		System.out.println("\n=== Zugriff über Lampe-Referenz ===");
+		lampe.dimmen(20);
+		System.out.println("Helligkeit: "+lampe.getHelligkeit());
+
+		
+		System.out.println("\n###########\n");
+		Geraet g1 = new Geraet("G1","Gerät 1");
+		g1.einschalten();
+		System.out.println(g1.toString());
+
+	}
+	
+}

@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class EinlesenAusgebenTest{
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		String eingabeZeile;
+		
+		// Einlesen und Umwandeln einer ganzen Zahl
+		System.out.print("Gib bitte eine ganze Zahl ein: ");
+		eingabeZeile = scanner.nextLine();
+		
+		scanner.close();
+	}
+}

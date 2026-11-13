@@ -1,0 +1,58 @@
+import java.util.ArrayList;
+
+public class Raum {
+	private static final int MAX_GERAETE = 10;
+	private String raumId;
+	private String name;
+	private ArrayList<Geraet> geraete = new ArrayList<Geraet>();
+	
+	public Raum(String raumId, String name) {
+		this.raumId = raumId;
+		this.name = name;
+	}
+	
+	public String getName() {
+		return name;
+	}
+	
+	
+	public void geraetHinzufuegen(Geraet geraet) throws RaumVollException {
+		geraete.add(geraet);
+	}
+	
+	public void geraetEntfernen(Geraet geraet) {
+		geraete.remove(geraet);
+	}
+	
+	public void geraeteAusschalten() {
+		for (int i = 0; i < geraete.size(); i++) {
+			geraete.get(i).ausschalten();
+		}
+	}
+	
+	
+	public void energieSparen() {
+		for (int i = 0; i < geraete.size(); i++) {
+			if(geraete.get(i) instanceof Dimmbar) {
+				Dimmbar d = (Dimmbar) geraete.get(i);
+				d.dimmen(20);
+			} else {
+				geraete.get(i).ausschalten();
+			}
+		}
+	}
+	
+	
+	
+	@Override
+	public String toString() {
+		String geraete = "";
+		for (int i = 0; i < this.geraete.size(); i++) {
+			geraete += "\n\t"+this.geraete.get(i).toString();
+		}
+		return "Raum: Raumnummer: "+raumId+", Name: "+name+", "
+				+ "Geraeteanzahl: "+geraeteAnzahl+ geraete;
+	}
+	
+	
+}

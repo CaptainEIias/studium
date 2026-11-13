@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+public class DoWhileTest {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		String korrektesPasswort = "geheim";
+		String eingabe;
+		int zaehler = 0;
+		
+		do {
+			if (zaehler == 3) {
+				System.out.println("Zugang gesperrt!");
+				scanner.close();
+				return;
+			}
+			System.out.print("Passwort: ");
+			eingabe = scanner.nextLine();
+			zaehler++;
+		} while (!eingabe.equals(korrektesPasswort));
+		
+		System.out.println("Zugang gewährt!");
+		scanner.close();
+		
+		boolean x = false;
+		while (!boolean) {
+			String in = scanner.nextLine();
+	}
+	
+
+	}
+
+}

@@ -1,0 +1,9 @@
+public class EinfacheAlternativeTest {
+	public static void main(String[] args) {
+		String bezeichnung = "Pizza Margherita";
+		long preisInCent = 890;
+		boolean lieferbar = true;
+		
+		
+	}
+}

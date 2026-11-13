@@ -1,0 +1,12 @@
+
+public class ObjectTest {
+	public static void main(String[] args) {
+		Object obj = new Lampe("L1", "Wohnzimmerlampe");
+		System.out.println("toString()-Methode: "+obj.toString());
+		Geraet g = (Geraet) obj;
+		System.out.println("Name: "+g.getName())
+		
+		
+	}
+	
+}

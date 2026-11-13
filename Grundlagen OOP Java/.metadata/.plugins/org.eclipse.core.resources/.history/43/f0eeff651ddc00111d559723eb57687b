@@ -1,0 +1,25 @@
+import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.Test;
+
+public class FahrradTest {
+	
+	@Test
+	void testLichtEinUndAus() {
+		Fahrrad rad = new Fahrrad();
+		rad.lichtAnschalten();
+		assertTrue(rad.isBeleuchtungAn(), "Licht sollte an sein");
+	}
+	
+	@Test
+	void testHochUndRunterschalten() {
+		Fahrrad rad = new Fahrrad();
+		rad.hochSchalten();
+		assertEquals(2, rad.getAktuellerGang(), "Nach Hochschalten sollte Gang 2 sein");
+		
+		rad.runterSchalten();
+		assertEquals(1, rad.getAktuellerGang(), "Nach Runterschalten sollte Gang 1 sein");
+	}
+	
+	
+	
+}

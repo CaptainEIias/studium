@@ -1,0 +1,7 @@
+package Übung;
+
+public class Steckdose extends Geraet{
+	double verbrauch;
+	
+	p
+}

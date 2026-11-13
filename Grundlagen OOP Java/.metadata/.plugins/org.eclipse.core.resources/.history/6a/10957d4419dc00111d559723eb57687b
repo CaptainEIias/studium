@@ -1,0 +1,7 @@
+public class FahrradTest{
+	public static void main(String[] args){
+		Fahrrad f1 = new Fahrrad();
+		f1.hochSchalten();
+		
+	}
+}

@@ -1,0 +1,19 @@
+public class Rechteck extends GeometrischeFigur{
+	private double breite;
+	private double hoehe;
+	
+	public Rechteck(String name, double breite, double hoehe) {
+		super(name);
+		this.breite = breite;
+		this.hoehe = hoehe;
+	}
+	
+	@Override
+	public double berechneUmfang() {
+		return 2 * (breite + hoehe);
+	}
+	
+	public double berechneFlaecheninhalt() {
+		return breite * hoehe;
+	}
+}

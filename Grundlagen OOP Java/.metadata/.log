@@ -1,0 +1,1276 @@
+!SESSION 2026-11-09 09:08:17.419 -----------------------------------------------
+eclipse.buildId=4.41.0.20260903-0719
+java.version=25.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=de_DE
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/elias/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.eclipse.epp.package.java.product -keyring /Users/elias/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2026-11-09 09:08:22.529
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-11-09 09:08:34.874
+!MESSAGE Logback config file: /Users/elias/Documents/Schule_Studium_Ausbildung/IU/Module/Grundlagen der objektorientierten Programmierung mit Java/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.201.20260831-2044.xml
+!SESSION 2026-11-09 09:10:26.324 -----------------------------------------------
+eclipse.buildId=4.41.0.20260903-0719
+java.version=25.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=de_DE
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/elias/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.eclipse.epp.package.java.product -keyring /Users/elias/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2026-11-09 09:10:29.121
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-11-09 09:10:45.257
+!MESSAGE Logback config file: /Users/elias/Documents/Schule_Studium_Ausbildung/IU/Module/Grundlagen der objektorientierten Programmierung mit Java/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.201.20260831-2044.xml
+!SESSION 2026-11-09 09:13:40.706 -----------------------------------------------
+eclipse.buildId=4.41.0.20260903-0719
+java.version=25.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=de_DE
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/elias/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.eclipse.epp.package.java.product -keyring /Users/elias/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2026-11-09 09:13:43.580
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-11-09 09:13:47.178
+!MESSAGE Logback config file: /Users/elias/Documents/Schule_Studium_Ausbildung/IU/Module/Grundlagen der objektorientierten Programmierung mit Java/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.201.20260831-2044.xml
+
+!ENTRY org.eclipse.ui.console 4 2 2026-11-09 09:35:16.642
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.console".
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4934)
+	at org.eclipse.swt.SWT.error(SWT.java:4849)
+	at org.eclipse.swt.SWT.error(SWT.java:4820)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1204)
+	at org.eclipse.swt.widgets.Display.createDisplay(Display.java:955)
+	at org.eclipse.swt.widgets.Display.create(Display.java:939)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:132)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:800)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:791)
+	at org.eclipse.swt.widgets.Display.getDefault(Display.java:1538)
+	at org.eclipse.ui.internal.console.ConsoleZoomHandler$1.consolesRemoved(ConsoleZoomHandler.java:166)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.run(ConsoleManager.java:157)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.notify(ConsoleManager.java:175)
+	at org.eclipse.ui.internal.console.ConsoleManager.fireUpdate(ConsoleManager.java:251)
+	at org.eclipse.ui.internal.console.ConsoleManager.removeConsoles(ConsoleManager.java:233)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.removeProcess(ProcessConsoleManager.java:177)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.removeLaunch(ProcessConsoleManager.java:162)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.shutdown(ProcessConsoleManager.java:264)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.stop(DebugUIPlugin.java:446)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:908)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:251)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:900)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:1085)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:399)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:699)
+	at org.eclipse.osgi.container.Module.stop(Module.java:557)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:2153)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:2022)
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:281)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:225)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:699)
+	at org.eclipse.osgi.container.Module.stop(Module.java:557)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:212)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:244)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+!ENTRY org.eclipse.ui.console 4 120 2026-11-09 09:35:16.643
+!MESSAGE An exception occurred during console notification
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4934)
+	at org.eclipse.swt.SWT.error(SWT.java:4849)
+	at org.eclipse.swt.SWT.error(SWT.java:4820)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1204)
+	at org.eclipse.swt.widgets.Display.createDisplay(Display.java:955)
+	at org.eclipse.swt.widgets.Display.create(Display.java:939)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:132)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:800)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:791)
+	at org.eclipse.swt.widgets.Display.getDefault(Display.java:1538)
+	at org.eclipse.ui.internal.console.ConsoleZoomHandler$1.consolesRemoved(ConsoleZoomHandler.java:166)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.run(ConsoleManager.java:157)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.notify(ConsoleManager.java:175)
+	at org.eclipse.ui.internal.console.ConsoleManager.fireUpdate(ConsoleManager.java:251)
+	at org.eclipse.ui.internal.console.ConsoleManager.removeConsoles(ConsoleManager.java:233)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.removeProcess(ProcessConsoleManager.java:177)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.removeLaunch(ProcessConsoleManager.java:162)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.shutdown(ProcessConsoleManager.java:264)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.stop(DebugUIPlugin.java:446)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:908)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:251)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:900)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:1085)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:399)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:699)
+	at org.eclipse.osgi.container.Module.stop(Module.java:557)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:2153)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:2022)
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:281)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:225)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:699)
+	at org.eclipse.osgi.container.Module.stop(Module.java:557)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:212)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:244)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+!ENTRY org.eclipse.ui.console 4 2 2026-11-09 09:35:16.643
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.console".
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4934)
+	at org.eclipse.swt.SWT.error(SWT.java:4849)
+	at org.eclipse.swt.SWT.error(SWT.java:4820)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1204)
+	at org.eclipse.swt.widgets.Display.createDisplay(Display.java:955)
+	at org.eclipse.swt.widgets.Display.create(Display.java:939)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:132)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:800)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:791)
+	at org.eclipse.swt.widgets.Display.getDefault(Display.java:1538)
+	at org.eclipse.ui.internal.console.ConsoleZoomHandler$1.consolesRemoved(ConsoleZoomHandler.java:166)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.run(ConsoleManager.java:157)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.notify(ConsoleManager.java:175)
+	at org.eclipse.ui.internal.console.ConsoleManager.fireUpdate(ConsoleManager.java:251)
+	at org.eclipse.ui.internal.console.ConsoleManager.removeConsoles(ConsoleManager.java:233)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.removeProcess(ProcessConsoleManager.java:177)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.removeLaunch(ProcessConsoleManager.java:162)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.shutdown(ProcessConsoleManager.java:264)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.stop(DebugUIPlugin.java:446)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:908)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:251)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:900)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:1085)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:399)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:699)
+	at org.eclipse.osgi.container.Module.stop(Module.java:557)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:2153)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:2022)
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:281)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:225)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:699)
+	at org.eclipse.osgi.container.Module.stop(Module.java:557)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:212)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:244)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+!ENTRY org.eclipse.ui.console 4 120 2026-11-09 09:35:16.643
+!MESSAGE An exception occurred during console notification
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4934)
+	at org.eclipse.swt.SWT.error(SWT.java:4849)
+	at org.eclipse.swt.SWT.error(SWT.java:4820)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1204)
+	at org.eclipse.swt.widgets.Display.createDisplay(Display.java:955)
+	at org.eclipse.swt.widgets.Display.create(Display.java:939)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:132)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:800)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:791)
+	at org.eclipse.swt.widgets.Display.getDefault(Display.java:1538)
+	at org.eclipse.ui.internal.console.ConsoleZoomHandler$1.consolesRemoved(ConsoleZoomHandler.java:166)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.run(ConsoleManager.java:157)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.notify(ConsoleManager.java:175)
+	at org.eclipse.ui.internal.console.ConsoleManager.fireUpdate(ConsoleManager.java:251)
+	at org.eclipse.ui.internal.console.ConsoleManager.removeConsoles(ConsoleManager.java:233)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.removeProcess(ProcessConsoleManager.java:177)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.removeLaunch(ProcessConsoleManager.java:162)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.shutdown(ProcessConsoleManager.java:264)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.stop(DebugUIPlugin.java:446)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:908)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:251)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:900)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:1085)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:399)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:699)
+	at org.eclipse.osgi.container.Module.stop(Module.java:557)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:2153)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:2022)
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:281)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:225)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:699)
+	at org.eclipse.osgi.container.Module.stop(Module.java:557)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:212)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:244)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+!ENTRY org.eclipse.ui.console 4 2 2026-11-09 09:35:16.643
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.console".
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4934)
+	at org.eclipse.swt.SWT.error(SWT.java:4849)
+	at org.eclipse.swt.SWT.error(SWT.java:4820)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1204)
+	at org.eclipse.swt.widgets.Display.createDisplay(Display.java:955)
+	at org.eclipse.swt.widgets.Display.create(Display.java:939)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:132)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:800)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:791)
+	at org.eclipse.swt.widgets.Display.getDefault(Display.java:1538)
+	at org.eclipse.ui.internal.console.ConsoleZoomHandler$1.consolesRemoved(ConsoleZoomHandler.java:166)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.run(ConsoleManager.java:157)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.notify(ConsoleManager.java:175)
+	at org.eclipse.ui.internal.console.ConsoleManager.fireUpdate(ConsoleManager.java:251)
+	at org.eclipse.ui.internal.console.ConsoleManager.removeConsoles(ConsoleManager.java:233)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.removeProcess(ProcessConsoleManager.java:177)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.removeLaunch(ProcessConsoleManager.java:162)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.shutdown(ProcessConsoleManager.java:264)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.stop(DebugUIPlugin.java:446)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:908)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:251)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:900)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:1085)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:399)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:699)
+	at org.eclipse.osgi.container.Module.stop(Module.java:557)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:2153)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:2022)
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:281)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:225)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:699)
+	at org.eclipse.osgi.container.Module.stop(Module.java:557)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:212)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:244)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+!ENTRY org.eclipse.ui.console 4 120 2026-11-09 09:35:16.643
+!MESSAGE An exception occurred during console notification
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4934)
+	at org.eclipse.swt.SWT.error(SWT.java:4849)
+	at org.eclipse.swt.SWT.error(SWT.java:4820)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1204)
+	at org.eclipse.swt.widgets.Display.createDisplay(Display.java:955)
+	at org.eclipse.swt.widgets.Display.create(Display.java:939)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:132)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:800)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:791)
+	at org.eclipse.swt.widgets.Display.getDefault(Display.java:1538)
+	at org.eclipse.ui.internal.console.ConsoleZoomHandler$1.consolesRemoved(ConsoleZoomHandler.java:166)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.run(ConsoleManager.java:157)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.notify(ConsoleManager.java:175)
+	at org.eclipse.ui.internal.console.ConsoleManager.fireUpdate(ConsoleManager.java:251)
+	at org.eclipse.ui.internal.console.ConsoleManager.removeConsoles(ConsoleManager.java:233)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.removeProcess(ProcessConsoleManager.java:177)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.removeLaunch(ProcessConsoleManager.java:162)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.shutdown(ProcessConsoleManager.java:264)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.stop(DebugUIPlugin.java:446)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:908)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:251)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:900)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:1085)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:399)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:699)
+	at org.eclipse.osgi.container.Module.stop(Module.java:557)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:2153)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:2022)
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:281)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:225)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:699)
+	at org.eclipse.osgi.container.Module.stop(Module.java:557)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:212)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:244)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+!ENTRY org.eclipse.ui.console 4 2 2026-11-09 09:35:16.644
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.console".
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4934)
+	at org.eclipse.swt.SWT.error(SWT.java:4849)
+	at org.eclipse.swt.SWT.error(SWT.java:4820)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1204)
+	at org.eclipse.swt.widgets.Display.createDisplay(Display.java:955)
+	at org.eclipse.swt.widgets.Display.create(Display.java:939)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:132)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:800)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:791)
+	at org.eclipse.swt.widgets.Display.getDefault(Display.java:1538)
+	at org.eclipse.ui.internal.console.ConsoleZoomHandler$1.consolesRemoved(ConsoleZoomHandler.java:166)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.run(ConsoleManager.java:157)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.notify(ConsoleManager.java:175)
+	at org.eclipse.ui.internal.console.ConsoleManager.fireUpdate(ConsoleManager.java:251)
+	at org.eclipse.ui.internal.console.ConsoleManager.removeConsoles(ConsoleManager.java:233)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.removeProcess(ProcessConsoleManager.java:177)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.removeLaunch(ProcessConsoleManager.java:162)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.shutdown(ProcessConsoleManager.java:264)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.stop(DebugUIPlugin.java:446)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:908)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:251)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:900)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:1085)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:399)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:699)
+	at org.eclipse.osgi.container.Module.stop(Module.java:557)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:2153)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:2022)
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:281)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:225)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:699)
+	at org.eclipse.osgi.container.Module.stop(Module.java:557)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:212)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:244)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+!ENTRY org.eclipse.ui.console 4 120 2026-11-09 09:35:16.644
+!MESSAGE An exception occurred during console notification
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4934)
+	at org.eclipse.swt.SWT.error(SWT.java:4849)
+	at org.eclipse.swt.SWT.error(SWT.java:4820)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1204)
+	at org.eclipse.swt.widgets.Display.createDisplay(Display.java:955)
+	at org.eclipse.swt.widgets.Display.create(Display.java:939)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:132)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:800)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:791)
+	at org.eclipse.swt.widgets.Display.getDefault(Display.java:1538)
+	at org.eclipse.ui.internal.console.ConsoleZoomHandler$1.consolesRemoved(ConsoleZoomHandler.java:166)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.run(ConsoleManager.java:157)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.notify(ConsoleManager.java:175)
+	at org.eclipse.ui.internal.console.ConsoleManager.fireUpdate(ConsoleManager.java:251)
+	at org.eclipse.ui.internal.console.ConsoleManager.removeConsoles(ConsoleManager.java:233)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.removeProcess(ProcessConsoleManager.java:177)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.removeLaunch(ProcessConsoleManager.java:162)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.shutdown(ProcessConsoleManager.java:264)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.stop(DebugUIPlugin.java:446)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:908)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:251)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:900)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:1085)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:399)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:699)
+	at org.eclipse.osgi.container.Module.stop(Module.java:557)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:2153)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:2022)
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:281)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:225)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:699)
+	at org.eclipse.osgi.container.Module.stop(Module.java:557)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:212)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:244)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+!ENTRY org.eclipse.ui.console 4 2 2026-11-09 09:35:16.644
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.console".
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4934)
+	at org.eclipse.swt.SWT.error(SWT.java:4849)
+	at org.eclipse.swt.SWT.error(SWT.java:4820)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1204)
+	at org.eclipse.swt.widgets.Display.createDisplay(Display.java:955)
+	at org.eclipse.swt.widgets.Display.create(Display.java:939)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:132)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:800)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:791)
+	at org.eclipse.swt.widgets.Display.getDefault(Display.java:1538)
+	at org.eclipse.ui.internal.console.ConsoleZoomHandler$1.consolesRemoved(ConsoleZoomHandler.java:166)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.run(ConsoleManager.java:157)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.notify(ConsoleManager.java:175)
+	at org.eclipse.ui.internal.console.ConsoleManager.fireUpdate(ConsoleManager.java:251)
+	at org.eclipse.ui.internal.console.ConsoleManager.removeConsoles(ConsoleManager.java:233)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.removeProcess(ProcessConsoleManager.java:177)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.removeLaunch(ProcessConsoleManager.java:162)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.shutdown(ProcessConsoleManager.java:264)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.stop(DebugUIPlugin.java:446)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:908)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:251)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:900)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:1085)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:399)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:699)
+	at org.eclipse.osgi.container.Module.stop(Module.java:557)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:2153)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:2022)
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:281)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:225)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:699)
+	at org.eclipse.osgi.container.Module.stop(Module.java:557)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:212)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:244)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+!ENTRY org.eclipse.ui.console 4 120 2026-11-09 09:35:16.644
+!MESSAGE An exception occurred during console notification
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4934)
+	at org.eclipse.swt.SWT.error(SWT.java:4849)
+	at org.eclipse.swt.SWT.error(SWT.java:4820)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1204)
+	at org.eclipse.swt.widgets.Display.createDisplay(Display.java:955)
+	at org.eclipse.swt.widgets.Display.create(Display.java:939)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:132)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:800)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:791)
+	at org.eclipse.swt.widgets.Display.getDefault(Display.java:1538)
+	at org.eclipse.ui.internal.console.ConsoleZoomHandler$1.consolesRemoved(ConsoleZoomHandler.java:166)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.run(ConsoleManager.java:157)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.notify(ConsoleManager.java:175)
+	at org.eclipse.ui.internal.console.ConsoleManager.fireUpdate(ConsoleManager.java:251)
+	at org.eclipse.ui.internal.console.ConsoleManager.removeConsoles(ConsoleManager.java:233)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.removeProcess(ProcessConsoleManager.java:177)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.removeLaunch(ProcessConsoleManager.java:162)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.shutdown(ProcessConsoleManager.java:264)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.stop(DebugUIPlugin.java:446)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:908)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:251)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:900)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:1085)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:399)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:699)
+	at org.eclipse.osgi.container.Module.stop(Module.java:557)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:2153)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:2022)
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:281)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:225)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:699)
+	at org.eclipse.osgi.container.Module.stop(Module.java:557)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:212)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:244)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+!SESSION 2026-11-09 09:35:17.634 -----------------------------------------------
+eclipse.buildId=4.41.0.20260903-0719
+java.version=25.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=de_DE
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/elias/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.eclipse.epp.package.java.product -keyring /Users/elias/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2026-11-09 09:35:20.510
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-11-09 09:35:23.506
+!MESSAGE Logback config file: /Users/elias/Documents/Schule_Studium_Ausbildung/IU/Module/Grundlagen der objektorientierten Programmierung mit Java/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.201.20260831-2044.xml
+
+!ENTRY org.eclipse.jdt.junit 4 0 2026-11-09 09:58:23.497
+!MESSAGE No tests found with test runner 'JUnit 6'.
+
+!ENTRY org.eclipse.ui.console 4 2 2026-11-09 10:14:11.210
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.console".
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4934)
+	at org.eclipse.swt.SWT.error(SWT.java:4849)
+	at org.eclipse.swt.SWT.error(SWT.java:4820)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1204)
+	at org.eclipse.swt.widgets.Display.createDisplay(Display.java:955)
+	at org.eclipse.swt.widgets.Display.create(Display.java:939)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:132)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:800)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:791)
+	at org.eclipse.swt.widgets.Display.getDefault(Display.java:1538)
+	at org.eclipse.ui.internal.console.ConsoleZoomHandler$1.consolesRemoved(ConsoleZoomHandler.java:166)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.run(ConsoleManager.java:157)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.notify(ConsoleManager.java:175)
+	at org.eclipse.ui.internal.console.ConsoleManager.fireUpdate(ConsoleManager.java:251)
+	at org.eclipse.ui.internal.console.ConsoleManager.removeConsoles(ConsoleManager.java:233)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.removeProcess(ProcessConsoleManager.java:177)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.removeLaunch(ProcessConsoleManager.java:162)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.shutdown(ProcessConsoleManager.java:264)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.stop(DebugUIPlugin.java:446)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:908)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:251)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:900)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:1085)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:399)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:699)
+	at org.eclipse.osgi.container.Module.stop(Module.java:557)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:2153)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:2022)
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:281)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:225)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:699)
+	at org.eclipse.osgi.container.Module.stop(Module.java:557)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:212)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:244)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+!ENTRY org.eclipse.ui.console 4 120 2026-11-09 10:14:11.210
+!MESSAGE An exception occurred during console notification
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4934)
+	at org.eclipse.swt.SWT.error(SWT.java:4849)
+	at org.eclipse.swt.SWT.error(SWT.java:4820)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1204)
+	at org.eclipse.swt.widgets.Display.createDisplay(Display.java:955)
+	at org.eclipse.swt.widgets.Display.create(Display.java:939)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:132)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:800)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:791)
+	at org.eclipse.swt.widgets.Display.getDefault(Display.java:1538)
+	at org.eclipse.ui.internal.console.ConsoleZoomHandler$1.consolesRemoved(ConsoleZoomHandler.java:166)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.run(ConsoleManager.java:157)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.notify(ConsoleManager.java:175)
+	at org.eclipse.ui.internal.console.ConsoleManager.fireUpdate(ConsoleManager.java:251)
+	at org.eclipse.ui.internal.console.ConsoleManager.removeConsoles(ConsoleManager.java:233)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.removeProcess(ProcessConsoleManager.java:177)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.removeLaunch(ProcessConsoleManager.java:162)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.shutdown(ProcessConsoleManager.java:264)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.stop(DebugUIPlugin.java:446)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:908)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:251)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:900)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:1085)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:399)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:699)
+	at org.eclipse.osgi.container.Module.stop(Module.java:557)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:2153)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:2022)
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:281)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:225)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:699)
+	at org.eclipse.osgi.container.Module.stop(Module.java:557)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:212)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:244)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+!SESSION 2026-11-09 10:21:15.438 -----------------------------------------------
+eclipse.buildId=4.41.0.20260903-0719
+java.version=25.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=de_DE
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/elias/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.eclipse.epp.package.java.product -keyring /Users/elias/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2026-11-09 10:21:18.295
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-11-09 10:21:22.840
+!MESSAGE Logback config file: /Users/elias/Documents/Schule_Studium_Ausbildung/IU/Module/Grundlagen der objektorientierten Programmierung mit Java/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.201.20260831-2044.xml
+
+!ENTRY org.eclipse.ui.console 4 2 2026-11-09 17:23:11.436
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.console".
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4934)
+	at org.eclipse.swt.SWT.error(SWT.java:4849)
+	at org.eclipse.swt.SWT.error(SWT.java:4820)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1204)
+	at org.eclipse.swt.widgets.Display.createDisplay(Display.java:955)
+	at org.eclipse.swt.widgets.Display.create(Display.java:939)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:132)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:800)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:791)
+	at org.eclipse.swt.widgets.Display.getDefault(Display.java:1538)
+	at org.eclipse.ui.internal.console.ConsoleZoomHandler$1.consolesRemoved(ConsoleZoomHandler.java:166)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.run(ConsoleManager.java:157)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.notify(ConsoleManager.java:175)
+	at org.eclipse.ui.internal.console.ConsoleManager.fireUpdate(ConsoleManager.java:251)
+	at org.eclipse.ui.internal.console.ConsoleManager.removeConsoles(ConsoleManager.java:233)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.removeProcess(ProcessConsoleManager.java:177)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.removeLaunch(ProcessConsoleManager.java:162)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.shutdown(ProcessConsoleManager.java:264)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.stop(DebugUIPlugin.java:446)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:908)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:251)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:900)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:1085)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:399)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:699)
+	at org.eclipse.osgi.container.Module.stop(Module.java:557)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:2153)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:2022)
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:281)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:225)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:699)
+	at org.eclipse.osgi.container.Module.stop(Module.java:557)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:212)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:244)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+!ENTRY org.eclipse.ui.console 4 120 2026-11-09 17:23:11.438
+!MESSAGE An exception occurred during console notification
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4934)
+	at org.eclipse.swt.SWT.error(SWT.java:4849)
+	at org.eclipse.swt.SWT.error(SWT.java:4820)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1204)
+	at org.eclipse.swt.widgets.Display.createDisplay(Display.java:955)
+	at org.eclipse.swt.widgets.Display.create(Display.java:939)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:132)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:800)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:791)
+	at org.eclipse.swt.widgets.Display.getDefault(Display.java:1538)
+	at org.eclipse.ui.internal.console.ConsoleZoomHandler$1.consolesRemoved(ConsoleZoomHandler.java:166)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.run(ConsoleManager.java:157)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.notify(ConsoleManager.java:175)
+	at org.eclipse.ui.internal.console.ConsoleManager.fireUpdate(ConsoleManager.java:251)
+	at org.eclipse.ui.internal.console.ConsoleManager.removeConsoles(ConsoleManager.java:233)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.removeProcess(ProcessConsoleManager.java:177)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.removeLaunch(ProcessConsoleManager.java:162)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.shutdown(ProcessConsoleManager.java:264)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.stop(DebugUIPlugin.java:446)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:908)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:251)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:900)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:1085)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:399)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:699)
+	at org.eclipse.osgi.container.Module.stop(Module.java:557)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:2153)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:2022)
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:281)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:225)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:699)
+	at org.eclipse.osgi.container.Module.stop(Module.java:557)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:212)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:244)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+!ENTRY org.eclipse.ui.console 4 2 2026-11-09 17:23:11.439
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.console".
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4934)
+	at org.eclipse.swt.SWT.error(SWT.java:4849)
+	at org.eclipse.swt.SWT.error(SWT.java:4820)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1204)
+	at org.eclipse.swt.widgets.Display.createDisplay(Display.java:955)
+	at org.eclipse.swt.widgets.Display.create(Display.java:939)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:132)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:800)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:791)
+	at org.eclipse.swt.widgets.Display.getDefault(Display.java:1538)
+	at org.eclipse.ui.internal.console.ConsoleZoomHandler$1.consolesRemoved(ConsoleZoomHandler.java:166)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.run(ConsoleManager.java:157)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.notify(ConsoleManager.java:175)
+	at org.eclipse.ui.internal.console.ConsoleManager.fireUpdate(ConsoleManager.java:251)
+	at org.eclipse.ui.internal.console.ConsoleManager.removeConsoles(ConsoleManager.java:233)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.removeProcess(ProcessConsoleManager.java:177)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.removeLaunch(ProcessConsoleManager.java:162)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.shutdown(ProcessConsoleManager.java:264)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.stop(DebugUIPlugin.java:446)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:908)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:251)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:900)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:1085)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:399)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:699)
+	at org.eclipse.osgi.container.Module.stop(Module.java:557)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:2153)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:2022)
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:281)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:225)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:699)
+	at org.eclipse.osgi.container.Module.stop(Module.java:557)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:212)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:244)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+!ENTRY org.eclipse.ui.console 4 120 2026-11-09 17:23:11.439
+!MESSAGE An exception occurred during console notification
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4934)
+	at org.eclipse.swt.SWT.error(SWT.java:4849)
+	at org.eclipse.swt.SWT.error(SWT.java:4820)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1204)
+	at org.eclipse.swt.widgets.Display.createDisplay(Display.java:955)
+	at org.eclipse.swt.widgets.Display.create(Display.java:939)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:132)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:800)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:791)
+	at org.eclipse.swt.widgets.Display.getDefault(Display.java:1538)
+	at org.eclipse.ui.internal.console.ConsoleZoomHandler$1.consolesRemoved(ConsoleZoomHandler.java:166)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.run(ConsoleManager.java:157)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.notify(ConsoleManager.java:175)
+	at org.eclipse.ui.internal.console.ConsoleManager.fireUpdate(ConsoleManager.java:251)
+	at org.eclipse.ui.internal.console.ConsoleManager.removeConsoles(ConsoleManager.java:233)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.removeProcess(ProcessConsoleManager.java:177)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.removeLaunch(ProcessConsoleManager.java:162)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.shutdown(ProcessConsoleManager.java:264)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.stop(DebugUIPlugin.java:446)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:908)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:251)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:900)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:1085)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:399)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:699)
+	at org.eclipse.osgi.container.Module.stop(Module.java:557)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:2153)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:2022)
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:281)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:225)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:699)
+	at org.eclipse.osgi.container.Module.stop(Module.java:557)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:212)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:244)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+!SESSION 2026-11-10 14:17:48.472 -----------------------------------------------
+eclipse.buildId=4.41.0.20260903-0719
+java.version=25.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=de_DE
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/elias/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.eclipse.epp.package.java.product -keyring /Users/elias/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2026-11-10 14:17:51.478
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-11-10 14:18:03.914
+!MESSAGE Logback config file: /Users/elias/Documents/Schule_Studium_Ausbildung/IU/Module/Grundlagen der objektorientierten Programmierung mit Java/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.201.20260831-2044.xml
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-11-10 14:18:22.228
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Error in Java Model (code 1006): <project root> [in Lektion 4] is not on its project's build path
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getRawClasspathEntry(PackageFragmentRoot.java:622)
+	at org.eclipse.jdt.internal.corext.buildpath.ClasspathModifier.filtersSet(ClasspathModifier.java:631)
+	at org.eclipse.jdt.internal.ui.wizards.buildpaths.newsourcepage.DialogPackageExplorer$PackageLabelProvider.getForeground(DialogPackageExplorer.java:210)
+	at org.eclipse.jface.viewers.DelegatingStyledCellLabelProvider.getForeground(DelegatingStyledCellLabelProvider.java:144)
+	at org.eclipse.jface.viewers.DecoratingStyledCellLabelProvider.getForeground(DecoratingStyledCellLabelProvider.java:148)
+	at org.eclipse.jface.viewers.DelegatingStyledCellLabelProvider.update(DelegatingStyledCellLabelProvider.java:127)
+	at org.eclipse.jface.viewers.DecoratingStyledCellLabelProvider.update(DecoratingStyledCellLabelProvider.java:136)
+	at org.eclipse.jface.viewers.ViewerColumn.refresh(ViewerColumn.java:149)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1005)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$UpdateItemSafeRunnable.run(AbstractTreeViewer.java:156)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:169)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1079)
+	at org.eclipse.jface.viewers.StructuredViewer$UpdateItemSafeRunnable.run(StructuredViewer.java:426)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:169)
+	at org.eclipse.jface.viewers.StructuredViewer.updateItem(StructuredViewer.java:2112)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createTreeItem(AbstractTreeViewer.java:897)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:875)
+	at org.eclipse.jface.viewers.TreeViewer.createChildren(TreeViewer.java:612)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:822)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalInitializeTree(AbstractTreeViewer.java:1653)
+	at org.eclipse.jface.viewers.TreeViewer.internalInitializeTree(TreeViewer.java:781)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.lambda$2(AbstractTreeViewer.java:1638)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1396)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:368)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1357)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.inputChanged(AbstractTreeViewer.java:1632)
+	at org.eclipse.jface.viewers.ContentViewer.setInput(ContentViewer.java:279)
+	at org.eclipse.jface.viewers.StructuredViewer.setInput(StructuredViewer.java:1640)
+	at org.eclipse.jdt.internal.ui.wizards.buildpaths.newsourcepage.DialogPackageExplorer.setInput(DialogPackageExplorer.java:424)
+	at org.eclipse.jdt.internal.ui.wizards.buildpaths.newsourcepage.NewSourceContainerWorkbookPage.doUpdateUI(NewSourceContainerWorkbookPage.java:134)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:131)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4377)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4000)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:164)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:360)
+	at org.eclipse.jface.wizard.WizardDialog.run(WizardDialog.java:1035)
+	at org.eclipse.jdt.internal.ui.wizards.NewElementWizard.performFinish(NewElementWizard.java:133)
+	at org.eclipse.jdt.internal.ui.wizards.JavaProjectWizard.performFinish(JavaProjectWizard.java:84)
+	at org.eclipse.jface.wizard.WizardDialog.finishPressed(WizardDialog.java:837)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:474)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:617)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:83)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:290)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4651)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1657)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1680)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1665)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1394)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4422)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3998)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:819)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ui.internal.actions.NewWizardShortcutAction.run(NewWizardShortcutAction.java:130)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:581)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:415)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4651)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1657)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1680)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1665)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1394)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4422)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3998)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1051)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:193)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:615)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:563)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1415)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1006 2026-11-10 14:18:22.228
+!MESSAGE <project root> [in Lektion 4] is not on its project's build path
+
+!ENTRY org.eclipse.ui.console 4 2 2026-11-10 17:01:44.267
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.console".
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4934)
+	at org.eclipse.swt.SWT.error(SWT.java:4849)
+	at org.eclipse.swt.SWT.error(SWT.java:4820)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1204)
+	at org.eclipse.swt.widgets.Display.createDisplay(Display.java:955)
+	at org.eclipse.swt.widgets.Display.create(Display.java:939)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:132)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:800)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:791)
+	at org.eclipse.swt.widgets.Display.getDefault(Display.java:1538)
+	at org.eclipse.ui.internal.console.ConsoleZoomHandler$1.consolesRemoved(ConsoleZoomHandler.java:166)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.run(ConsoleManager.java:157)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.notify(ConsoleManager.java:175)
+	at org.eclipse.ui.internal.console.ConsoleManager.fireUpdate(ConsoleManager.java:251)
+	at org.eclipse.ui.internal.console.ConsoleManager.removeConsoles(ConsoleManager.java:233)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.removeProcess(ProcessConsoleManager.java:177)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.removeLaunch(ProcessConsoleManager.java:162)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.shutdown(ProcessConsoleManager.java:264)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.stop(DebugUIPlugin.java:446)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:908)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:251)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:900)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:1085)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:399)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:699)
+	at org.eclipse.osgi.container.Module.stop(Module.java:557)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:2153)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:2022)
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:281)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:225)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:699)
+	at org.eclipse.osgi.container.Module.stop(Module.java:557)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:212)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:244)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+!ENTRY org.eclipse.ui.console 4 120 2026-11-10 17:01:44.268
+!MESSAGE An exception occurred during console notification
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4934)
+	at org.eclipse.swt.SWT.error(SWT.java:4849)
+	at org.eclipse.swt.SWT.error(SWT.java:4820)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1204)
+	at org.eclipse.swt.widgets.Display.createDisplay(Display.java:955)
+	at org.eclipse.swt.widgets.Display.create(Display.java:939)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:132)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:800)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:791)
+	at org.eclipse.swt.widgets.Display.getDefault(Display.java:1538)
+	at org.eclipse.ui.internal.console.ConsoleZoomHandler$1.consolesRemoved(ConsoleZoomHandler.java:166)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.run(ConsoleManager.java:157)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.notify(ConsoleManager.java:175)
+	at org.eclipse.ui.internal.console.ConsoleManager.fireUpdate(ConsoleManager.java:251)
+	at org.eclipse.ui.internal.console.ConsoleManager.removeConsoles(ConsoleManager.java:233)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.removeProcess(ProcessConsoleManager.java:177)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.removeLaunch(ProcessConsoleManager.java:162)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.shutdown(ProcessConsoleManager.java:264)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.stop(DebugUIPlugin.java:446)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:908)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:251)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:900)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:1085)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:399)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:699)
+	at org.eclipse.osgi.container.Module.stop(Module.java:557)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:2153)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:2022)
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:281)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:225)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:699)
+	at org.eclipse.osgi.container.Module.stop(Module.java:557)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:212)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:244)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+!SESSION 2026-11-11 12:36:55.625 -----------------------------------------------
+eclipse.buildId=4.41.0.20260903-0719
+java.version=25.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=de_DE
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/elias/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.eclipse.epp.package.java.product -keyring /Users/elias/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2026-11-11 12:36:58.595
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-11-11 12:37:02.981
+!MESSAGE Logback config file: /Users/elias/Documents/Schule_Studium_Ausbildung/IU/Module/Grundlagen der objektorientierten Programmierung mit Java/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.201.20260831-2044.xml
+
+!ENTRY org.eclipse.ui.console 4 2 2026-11-11 15:03:41.193
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.console".
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4934)
+	at org.eclipse.swt.SWT.error(SWT.java:4849)
+	at org.eclipse.swt.SWT.error(SWT.java:4820)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1204)
+	at org.eclipse.swt.widgets.Display.createDisplay(Display.java:955)
+	at org.eclipse.swt.widgets.Display.create(Display.java:939)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:132)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:800)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:791)
+	at org.eclipse.swt.widgets.Display.getDefault(Display.java:1538)
+	at org.eclipse.ui.internal.console.ConsoleZoomHandler$1.consolesRemoved(ConsoleZoomHandler.java:166)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.run(ConsoleManager.java:157)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.notify(ConsoleManager.java:175)
+	at org.eclipse.ui.internal.console.ConsoleManager.fireUpdate(ConsoleManager.java:251)
+	at org.eclipse.ui.internal.console.ConsoleManager.removeConsoles(ConsoleManager.java:233)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.removeProcess(ProcessConsoleManager.java:177)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.removeLaunch(ProcessConsoleManager.java:162)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.shutdown(ProcessConsoleManager.java:264)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.stop(DebugUIPlugin.java:446)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:908)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:251)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:900)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:1085)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:399)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:699)
+	at org.eclipse.osgi.container.Module.stop(Module.java:557)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:2153)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:2022)
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:281)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:225)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:699)
+	at org.eclipse.osgi.container.Module.stop(Module.java:557)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:212)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:244)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+!ENTRY org.eclipse.ui.console 4 120 2026-11-11 15:03:41.194
+!MESSAGE An exception occurred during console notification
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4934)
+	at org.eclipse.swt.SWT.error(SWT.java:4849)
+	at org.eclipse.swt.SWT.error(SWT.java:4820)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1204)
+	at org.eclipse.swt.widgets.Display.createDisplay(Display.java:955)
+	at org.eclipse.swt.widgets.Display.create(Display.java:939)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:132)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:800)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:791)
+	at org.eclipse.swt.widgets.Display.getDefault(Display.java:1538)
+	at org.eclipse.ui.internal.console.ConsoleZoomHandler$1.consolesRemoved(ConsoleZoomHandler.java:166)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.run(ConsoleManager.java:157)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.notify(ConsoleManager.java:175)
+	at org.eclipse.ui.internal.console.ConsoleManager.fireUpdate(ConsoleManager.java:251)
+	at org.eclipse.ui.internal.console.ConsoleManager.removeConsoles(ConsoleManager.java:233)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.removeProcess(ProcessConsoleManager.java:177)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.removeLaunch(ProcessConsoleManager.java:162)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.shutdown(ProcessConsoleManager.java:264)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.stop(DebugUIPlugin.java:446)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:908)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:251)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:900)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:1085)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:399)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:699)
+	at org.eclipse.osgi.container.Module.stop(Module.java:557)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:2153)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:2022)
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:281)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:225)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:699)
+	at org.eclipse.osgi.container.Module.stop(Module.java:557)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:212)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:244)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+!SESSION 2026-11-11 15:10:27.102 -----------------------------------------------
+eclipse.buildId=4.41.0.20260903-0719
+java.version=25.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=de_DE
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/elias/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.eclipse.epp.package.java.product -keyring /Users/elias/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2026-11-11 15:10:34.805
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-11-11 15:10:37.680
+!MESSAGE Logback config file: /Users/elias/Documents/Schule_Studium_Ausbildung/IU/Module/Grundlagen der objektorientierten Programmierung mit Java/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.201.20260831-2044.xml
+
+!ENTRY org.eclipse.ui.console 4 2 2026-11-11 18:05:03.828
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.console".
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4934)
+	at org.eclipse.swt.SWT.error(SWT.java:4849)
+	at org.eclipse.swt.SWT.error(SWT.java:4820)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1204)
+	at org.eclipse.swt.widgets.Display.createDisplay(Display.java:955)
+	at org.eclipse.swt.widgets.Display.create(Display.java:939)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:132)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:800)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:791)
+	at org.eclipse.swt.widgets.Display.getDefault(Display.java:1538)
+	at org.eclipse.ui.internal.console.ConsoleZoomHandler$1.consolesRemoved(ConsoleZoomHandler.java:166)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.run(ConsoleManager.java:157)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.notify(ConsoleManager.java:175)
+	at org.eclipse.ui.internal.console.ConsoleManager.fireUpdate(ConsoleManager.java:251)
+	at org.eclipse.ui.internal.console.ConsoleManager.removeConsoles(ConsoleManager.java:233)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.removeProcess(ProcessConsoleManager.java:177)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.removeLaunch(ProcessConsoleManager.java:162)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.shutdown(ProcessConsoleManager.java:264)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.stop(DebugUIPlugin.java:446)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:908)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:251)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:900)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:1085)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:399)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:699)
+	at org.eclipse.osgi.container.Module.stop(Module.java:557)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:2153)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:2022)
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:281)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:225)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:699)
+	at org.eclipse.osgi.container.Module.stop(Module.java:557)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:212)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:244)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+!ENTRY org.eclipse.ui.console 4 120 2026-11-11 18:05:03.829
+!MESSAGE An exception occurred during console notification
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4934)
+	at org.eclipse.swt.SWT.error(SWT.java:4849)
+	at org.eclipse.swt.SWT.error(SWT.java:4820)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1204)
+	at org.eclipse.swt.widgets.Display.createDisplay(Display.java:955)
+	at org.eclipse.swt.widgets.Display.create(Display.java:939)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:132)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:800)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:791)
+	at org.eclipse.swt.widgets.Display.getDefault(Display.java:1538)
+	at org.eclipse.ui.internal.console.ConsoleZoomHandler$1.consolesRemoved(ConsoleZoomHandler.java:166)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.run(ConsoleManager.java:157)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.notify(ConsoleManager.java:175)
+	at org.eclipse.ui.internal.console.ConsoleManager.fireUpdate(ConsoleManager.java:251)
+	at org.eclipse.ui.internal.console.ConsoleManager.removeConsoles(ConsoleManager.java:233)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.removeProcess(ProcessConsoleManager.java:177)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.removeLaunch(ProcessConsoleManager.java:162)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.shutdown(ProcessConsoleManager.java:264)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.stop(DebugUIPlugin.java:446)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:908)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:251)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:900)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:1085)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:399)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:699)
+	at org.eclipse.osgi.container.Module.stop(Module.java:557)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:2153)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:2022)
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:281)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:225)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:699)
+	at org.eclipse.osgi.container.Module.stop(Module.java:557)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:212)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:244)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+!SESSION 2026-11-12 13:05:22.040 -----------------------------------------------
+eclipse.buildId=4.41.0.20260903-0719
+java.version=25.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=de_DE
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/elias/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.eclipse.epp.package.java.product -keyring /Users/elias/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2026-11-12 13:05:25.094
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-11-12 13:05:27.629
+!MESSAGE Logback config file: /Users/elias/Documents/Schule_Studium_Ausbildung/IU/Module/Grundlagen der objektorientierten Programmierung mit Java/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.201.20260831-2044.xml
+
+!ENTRY org.eclipse.ui.console 4 2 2026-11-12 18:20:24.993
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.console".
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4934)
+	at org.eclipse.swt.SWT.error(SWT.java:4849)
+	at org.eclipse.swt.SWT.error(SWT.java:4820)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1204)
+	at org.eclipse.swt.widgets.Display.createDisplay(Display.java:955)
+	at org.eclipse.swt.widgets.Display.create(Display.java:939)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:132)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:800)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:791)
+	at org.eclipse.swt.widgets.Display.getDefault(Display.java:1538)
+	at org.eclipse.ui.internal.console.ConsoleZoomHandler$1.consolesRemoved(ConsoleZoomHandler.java:166)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.run(ConsoleManager.java:157)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.notify(ConsoleManager.java:175)
+	at org.eclipse.ui.internal.console.ConsoleManager.fireUpdate(ConsoleManager.java:251)
+	at org.eclipse.ui.internal.console.ConsoleManager.removeConsoles(ConsoleManager.java:233)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.removeProcess(ProcessConsoleManager.java:177)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.removeLaunch(ProcessConsoleManager.java:162)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.shutdown(ProcessConsoleManager.java:264)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.stop(DebugUIPlugin.java:446)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:908)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:251)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:900)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:1085)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:399)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:699)
+	at org.eclipse.osgi.container.Module.stop(Module.java:557)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:2153)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:2022)
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:281)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:225)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:699)
+	at org.eclipse.osgi.container.Module.stop(Module.java:557)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:212)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:244)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+!ENTRY org.eclipse.ui.console 4 120 2026-11-12 18:20:24.994
+!MESSAGE An exception occurred during console notification
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4934)
+	at org.eclipse.swt.SWT.error(SWT.java:4849)
+	at org.eclipse.swt.SWT.error(SWT.java:4820)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1204)
+	at org.eclipse.swt.widgets.Display.createDisplay(Display.java:955)
+	at org.eclipse.swt.widgets.Display.create(Display.java:939)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:132)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:800)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:791)
+	at org.eclipse.swt.widgets.Display.getDefault(Display.java:1538)
+	at org.eclipse.ui.internal.console.ConsoleZoomHandler$1.consolesRemoved(ConsoleZoomHandler.java:166)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.run(ConsoleManager.java:157)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.notify(ConsoleManager.java:175)
+	at org.eclipse.ui.internal.console.ConsoleManager.fireUpdate(ConsoleManager.java:251)
+	at org.eclipse.ui.internal.console.ConsoleManager.removeConsoles(ConsoleManager.java:233)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.removeProcess(ProcessConsoleManager.java:177)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.removeLaunch(ProcessConsoleManager.java:162)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.shutdown(ProcessConsoleManager.java:264)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.stop(DebugUIPlugin.java:446)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:908)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:251)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:900)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:1085)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:399)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:699)
+	at org.eclipse.osgi.container.Module.stop(Module.java:557)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:2153)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:2022)
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:281)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:225)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:699)
+	at org.eclipse.osgi.container.Module.stop(Module.java:557)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:212)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:244)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+!SESSION 2026-11-13 11:22:40.154 -----------------------------------------------
+eclipse.buildId=4.41.0.20260903-0719
+java.version=25.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=de_DE
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/elias/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.eclipse.epp.package.java.product -keyring /Users/elias/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2026-11-13 11:22:43.016
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-11-13 11:22:47.965
+!MESSAGE Logback config file: /Users/elias/Documents/Schule_Studium_Ausbildung/IU/Module/Grundlagen der objektorientierten Programmierung mit Java/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.201.20260831-2044.xml
+
+!ENTRY org.eclipse.jdt.ui 4 0 2026-11-13 13:48:39.602
+!MESSAGE AbortCompilation computing hover information in NullPointerTest.java at offset 99
+!STACK 0
+org.eclipse.jdt.internal.compiler.problem.AbortCompilation: 
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:11585)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:11975)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:11916)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.dietParse(Parser.java:10308)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.parse(CompilationUnitResolver.java:656)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.toCompilationUnit(CompilationUnitResolver.java:1441)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver$ECJCompilationUnitResolver.toCompilationUnit(CompilationUnitResolver.java:109)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateASTCached(ASTParser.java:1412)
+	at org.eclipse.jdt.core.dom.ASTParser.lambda$1(ASTParser.java:1291)
+	at org.eclipse.jdt.internal.core.JavaModelManager.cacheZipFiles(JavaModelManager.java:5772)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1291)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:933)
+	at org.eclipse.jdt.core.manipulation.internal.javadoc.CoreJavadocContentAccessUtility.createAST(CoreJavadocContentAccessUtility.java:350)
+	at org.eclipse.jdt.core.manipulation.internal.javadoc.CoreJavadocContentAccessUtility.getJavadocNode(CoreJavadocContentAccessUtility.java:318)
+	at org.eclipse.jdt.core.manipulation.internal.javadoc.CoreJavadocAccess.javadoc2HTML(CoreJavadocAccess.java:423)
+	at org.eclipse.jdt.core.manipulation.internal.javadoc.CoreJavadocAccess.getHTMLContentFromSource(CoreJavadocAccess.java:372)
+	at org.eclipse.jdt.core.manipulation.internal.javadoc.CoreJavadocAccess.getHTMLContent(CoreJavadocAccess.java:229)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:49)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:802)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:720)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:705)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+	Suppressed: java.lang.Throwable: Source line 5 :
+-----
+
+public class NullPointerTest {
+	public static void main(String[] args) {
+		String text = null;
+		/|System.out.println(text.length());
+-----
+		at org.eclipse.jdt.internal.ui.util.SelectionUtil.logException(SelectionUtil.java:157)
+		at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:178)
+		... 3 more

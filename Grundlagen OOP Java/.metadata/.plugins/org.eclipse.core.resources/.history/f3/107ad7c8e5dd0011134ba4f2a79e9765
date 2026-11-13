@@ -1,0 +1,12 @@
+package Übung;
+
+public class Geraet {
+	private String geraetId;
+	private String name;
+	private boolean an;
+	
+	public Geraet(String gereatId, String name) {
+		
+	}
+
+}

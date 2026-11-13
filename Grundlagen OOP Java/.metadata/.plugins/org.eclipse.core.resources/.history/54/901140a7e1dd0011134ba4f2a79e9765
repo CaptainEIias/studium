@@ -1,0 +1,9 @@
+public class RaumTest{
+	public static void main(String[] args) {
+		Raum wohnzimmer = new Raum("R1", "Wohnzimmer");
+		Raum bad = new Raum("R2", "Badezimmer");
+		
+		Lampe stehlampe = new Lampe("L1", "Stehlampe");
+		
+	}
+}

@@ -1,0 +1,23 @@
+
+public class LampeTestV4 {
+
+	public static void main(String[] args) {
+		System.out.println("Anzahl der Lampen vor dem Erzeugen: "+
+							LampeV4.getLampenAnzahl());
+		
+		LampeV4 l1 = new LampeV4();
+		LampeV4 l2 = new LampeV4(true, 80);
+		LampeV4 l3 = new LampeV4(false, 30);
+		
+		System.out.println("Anzahl der Lampen nach dem Erzeugen: "+
+				LampeV4.getLampenAnzahl());
+		
+		l1.einschalten(LampeV4.MAX_HELLIGKEIT);
+		l2.ausschalten();
+		l3.einschalten();
+		
+		System.out.println("Lampe 1: an = "+l1.isAn()+", Helligkeit = ");
+
+	}
+
+}

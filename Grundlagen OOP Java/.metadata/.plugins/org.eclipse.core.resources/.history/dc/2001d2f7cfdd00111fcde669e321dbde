@@ -1,0 +1,4 @@
+
+public class Lampe extends Geraet{
+	public static final int MAX_HRLLIGKEIT = 100;
+}

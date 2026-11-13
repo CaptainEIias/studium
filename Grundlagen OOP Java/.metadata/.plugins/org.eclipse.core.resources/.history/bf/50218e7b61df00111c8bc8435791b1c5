@@ -1,0 +1,7 @@
+
+public class RaumVollException extends Exception{
+	public RaumVollException(String message) {
+		super(message);
+	}
+
+}

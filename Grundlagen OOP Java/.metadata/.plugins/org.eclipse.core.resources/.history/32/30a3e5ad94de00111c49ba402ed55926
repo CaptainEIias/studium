@@ -1,0 +1,10 @@
+public class Geraet{
+	private String geraetId;
+	private String name;
+	private boolean an;
+	
+	
+	public Geraet(String geraetId, String name) {
+		
+	}
+}

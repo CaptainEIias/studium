@@ -1,0 +1,22 @@
+public class ElementareDatentypenTest{
+	public static void main(String[] arg) {
+		// Ganzzahlen
+		byte alter = 25;
+		short schuelerzahl = 700;
+		int einwohnerzahl = 890000;
+		long entfernungZurSonne = 149600000000L; //in Metern
+		
+		// Kommazahlen
+		float temperatur = 21.5f;
+		double pi = 3.141592653589793;
+		
+		// Zeichen
+		char ersterBuchstabe = 'A';
+		
+		// Wahrheitswert
+		boolean istJavaCool = true;
+		
+		System.out.println("Alter: "+ alter +" Jahre");
+		System.out.println("Schülerzahl: "+ schuelerzahl);
+	}
+}

@@ -1,0 +1,9 @@
+
+public class ReferenzgleichheitTest {
+
+	public static void main(String[] args) {
+		LampeV2 ref1 = new LampeV2();
+
+	}
+
+}

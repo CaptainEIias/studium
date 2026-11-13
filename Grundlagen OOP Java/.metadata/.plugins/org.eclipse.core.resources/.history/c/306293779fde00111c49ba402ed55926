@@ -1,0 +1,32 @@
+
+public class Thermostat extends Geraet {
+	private double zielTemperatur;
+	private double aktuelleTemperatur;
+	// Z.B. heizen, kühlen, lüften
+	private String betriebsart;
+
+	public Thermostat(String geraetId, String name) {
+		super(geraetId, name);
+		zielTemperatur = 20.0;
+		aktuelleTemperatur = 20.0;
+		betriebsart = "lüften";
+	}
+
+	public void setZielTemperatur(double zielTemperatur) {
+		this.zielTemperatur = zielTemperatur;
+	}
+
+	public double getAktuelleTemperatur() {
+		return aktuelleTemperatur;
+	}
+
+	public void setBetriebsart(String betriebsart) {
+		this.betriebsart = betriebsart;
+	}
+
+	public String getBetriebsart() {
+		return betriebsart;
+	}
+	
+	
+}

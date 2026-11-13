@@ -1,0 +1,4 @@
+public class Fahrrad {
+	private int aktuellerGang = 1;
+	private boolean beleuchtungAn = false;
+}

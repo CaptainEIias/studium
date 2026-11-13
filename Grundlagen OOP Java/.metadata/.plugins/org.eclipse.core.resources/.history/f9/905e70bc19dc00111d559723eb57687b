@@ -1,0 +1,10 @@
+import java.util.Scanner;
+
+public class EinlesenAusgebenTest{
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		String eingabeZeile;
+		
+		// Einlesen
+	}
+}

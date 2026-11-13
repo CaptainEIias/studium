@@ -1,0 +1,23 @@
+
+public class RaumTest {
+	public static void main(String[] args) {
+		Raum wohnzimmer = new Raum("R1", "Wohnzimmer");
+		
+		try {
+			for(int i = 0; i<=11; i++) {
+				wohnzimmer.geraetHinzufuegen(new Lampe("L"+(i+1),"Lampe"+(i+1)));
+			}
+			
+		}catch(RaumVollException ex) {
+			System.out.println(ex.getMessage());
+			System.out.println("Zu viele Lampen hinzugefügt!");
+		}
+		
+		System.out.println();
+			int[] arr = {1,2};
+			int a = arr[-22];
+
+		
+	}
+
+}

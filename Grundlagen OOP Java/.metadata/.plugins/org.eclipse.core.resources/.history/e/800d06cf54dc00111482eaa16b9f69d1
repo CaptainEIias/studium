@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class DoWhileTest {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		String korrektesPasswort = "geheim";
+		String eingabe;
+		int zaehler = 0;
+
+	}
+
+}

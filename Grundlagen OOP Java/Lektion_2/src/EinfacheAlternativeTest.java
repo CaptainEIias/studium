@@ -1,0 +1,17 @@
+public class EinfacheAlternativeTest {
+	public static void main(String[] args) {
+		String bezeichnung = "Pizza Margherita";
+		long preisInCent = 890;
+		boolean lieferbar = true;
+		
+		if (lieferbar) {
+			System.out.println("Bezeichnung: "+ bezeichnung);
+			System.out.print("Preis: "+ (preisInCent / 100)+ ", "+(preisInCent % 100) + " Euro");
+		}
+		else {
+			System.out.println("Zurzeit leider ausverkauft");
+		}
+		System.out.println("Ich werde immer ausgeführt!");
+		
+	}
+}

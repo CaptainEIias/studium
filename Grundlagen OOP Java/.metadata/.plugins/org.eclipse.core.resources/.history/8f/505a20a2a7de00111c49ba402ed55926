@@ -1,0 +1,9 @@
+public class GeometrischeFigur{
+	private String name;
+	
+	
+	public GeometrischeFigur(String name) {
+		
+	}
+	
+}

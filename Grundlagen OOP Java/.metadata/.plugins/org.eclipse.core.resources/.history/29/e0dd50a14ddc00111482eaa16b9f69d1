@@ -1,0 +1,17 @@
+public class MehrfacheAlternativeTest{
+	public static void main(String[] args) {
+		long preisInCent = 1350;
+		
+		if(preisInCent < 800) {
+			System.out.println("Preiswertes Angebot!");
+		} else if(preisInCent < 1200) {
+			System.out.println("Normale Preisklasse.");
+		} else if(preisInCent < 1600) {
+			System.out.println("Gehobene Preisklasse");
+		} else {
+			System.out.println("");
+		}
+		
+		
+	}
+}

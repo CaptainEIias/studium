@@ -1,0 +1,22 @@
+
+public class Raum {
+	private static final int MAX_GERAETE = 10;
+	private String raumId;
+	private String name;
+	private Geraet[] geraete = new Geraet[MAX_GERAETE];
+	private int geraeteAnzahl = 0;
+	
+	public Raum(String raumId, String name) {
+		this.raumId = raumId;
+		this.name = name;
+	}
+	
+	public String getName() {
+		return name;
+	}
+	
+	public void geraetHinzufuegen(Geraet geraet) {
+		
+	}
+	
+}

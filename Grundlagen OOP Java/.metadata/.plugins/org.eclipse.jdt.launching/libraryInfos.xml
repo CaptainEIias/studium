@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<libraryInfos>
+    <libraryInfo home="/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home" version="25.0.5"/>
+    <libraryInfo home="/opt/homebrew/Cellar/openjdk/27.0.1.0.3/libexec/openjdk.jdk/Contents/Home" version="27.0.1.0.3"/>
+</libraryInfos>

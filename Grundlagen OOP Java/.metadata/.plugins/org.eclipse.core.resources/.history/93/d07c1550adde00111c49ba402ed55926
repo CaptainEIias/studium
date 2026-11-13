@@ -1,0 +1,7 @@
+
+public class Kreis extends GeometrischeFigur{
+	private String name;
+	private double r;
+	
+	public Kreis(String name, double radius)
+}

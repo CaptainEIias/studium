@@ -1,0 +1,15 @@
+package Übung;
+
+public class RaumTest {
+
+	public static void main(String[] args) {
+		Raum R1 = new Raum("R1", "Wohnzimmer");
+		Raum R2 = new Raum("R2", "Schlafzimmer");
+		
+		
+		
+		
+
+	}
+
+}

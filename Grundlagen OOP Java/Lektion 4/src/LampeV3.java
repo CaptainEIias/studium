@@ -1,0 +1,25 @@
+
+public class LampeV3 {
+	private boolean an;
+	private int helligkeit;
+	
+	public LampeV3() {
+		this.an = false;
+		this.helligkeit = 0;
+	}
+	
+	public LampeV3(boolean an, int helligkeit) {
+		this.an = an;
+		this.helligkeit = helligkeit;
+	}
+	
+	public LampeV3(boolean an) {
+		this(an, 0);
+	}
+	
+	public LampeV3(int helligkeit) {
+		this(false, helligkeit);
+	}
+	
+	
+}

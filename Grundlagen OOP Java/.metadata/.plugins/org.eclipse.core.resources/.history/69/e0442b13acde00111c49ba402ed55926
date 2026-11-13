@@ -1,0 +1,7 @@
+public class GeometrischeFigurTest{
+	public static void main(String[] args) {
+		GeometrischeFigur[] figuren = new GeometrischeFigur[3];
+		
+		
+	}
+}

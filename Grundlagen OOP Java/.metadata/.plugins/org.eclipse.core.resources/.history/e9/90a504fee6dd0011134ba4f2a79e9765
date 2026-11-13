@@ -1,0 +1,9 @@
+package Übung;
+
+public class geraetEntfernen {
+	
+	public void geraetEntfernen(Geraet geraet) {
+		
+	}
+
+}

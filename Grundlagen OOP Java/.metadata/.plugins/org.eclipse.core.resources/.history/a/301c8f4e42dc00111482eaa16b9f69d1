@@ -1,0 +1,6 @@
+public class ArrayTest{
+	public static void main(String[] args) {
+		int[] temperaturen = {18, 20, 17, 21, 19, 23, 22};
+		
+	}
+}

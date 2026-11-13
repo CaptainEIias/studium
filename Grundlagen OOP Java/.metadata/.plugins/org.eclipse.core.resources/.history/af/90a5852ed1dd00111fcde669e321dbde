@@ -1,0 +1,9 @@
+public class Thermostat extends Geraet{
+	private double zielTemperatur;
+	private double aktuelleTemperatur;
+	private String betriebsart;
+	
+	public Thermostat(String geraetId, String name) {
+		
+	}
+}

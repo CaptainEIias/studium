@@ -1,0 +1,27 @@
+
+public class ReferenzgleichheitTest {
+
+	public static void main(String[] args) {
+		LampeV2 ref1 = new LampeV2(false, 0);
+		LampeV2 ref2 = new LampeV2(false,0);
+		LampeV2 ref3 = new LampeV2(true,10);
+		
+		System.out.println("ref1: "+ref1+" -> IsAn: "+ref1.isAn()+ ", "
+				+ "Helligkeit: "+ref1.getHelligkeit());
+		System.out.println("ref2: "+ref2+" -> IsAn: "+ref2.isAn()+ ", "
+				+ "Helligkeit: "+ref2.getHelligkeit());
+		System.out.println("ref3: "+ref3+" -> IsAn: "+ref3.isAn()+ ", "
+				+ "Helligkeit: "+ref3.getHelligkeit());
+		
+		ref1 = ref3;
+		System.out.println();
+		System.out.println("ref1: "+ref1+" -> IsAn: "+ref1.isAn()+ ", "
+				+ "Helligkeit: "+ref1.getHelligkeit());
+		System.out.println("ref3: "+ref3+" -> IsAn: "+ref3.isAn()+ ", "
+				+ "Helligkeit: "+ref3.getHelligkeit());
+		
+		System.out.println((ref1==ref2));
+
+	}
+
+}

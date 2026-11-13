@@ -1,0 +1,11 @@
+package Übung;
+
+public class geraetEntfernen {
+	
+	public void geraetEntfernen(Geraet geraet) {
+		for (int i = 0; i < geraeteAnzahl; i++) {
+			if(gera)
+		}
+	}
+
+}

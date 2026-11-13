@@ -1,0 +1,10 @@
+
+public class UE_GeometrischeFigurTest {
+
+	public static void main(String[] args) {
+		GeometrischeFigur[] figuren = new GeometrischeFigur[3];
+		figuren[0] = new Kreis("Kreis", 5) 
+
+	}
+
+}

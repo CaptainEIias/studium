@@ -1,0 +1,11 @@
+public abstract class Geraet implements Schaltbar{
+	private String geraetId;
+	private String name;
+	private boolean an;
+	
+	public Geraet(String geraetId, String name) {
+	}
+	public void setName(String name) {
+	}
+	
+}

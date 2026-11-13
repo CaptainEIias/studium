@@ -1,0 +1,19 @@
+INDEX VERSION 1.134+/Users/elias/Documents/Schule_Studium_Ausbildung/IU/Module/Grundlagen der objektorientierten Programmierung mit Java/.metadata/.plugins/org.eclipse.jdt.core
+2456473069.index
+3849190779.index
+2086972609.index
+3111032878.index
+3252131299.index
+191077463.index
+74800422.index
+4149931196.index
+4278019492.index
+2762554743.index
+1741084208.index
+4048982534.index
+2110347301.index
+1865797976.index
+35882578.index
+1033923789.index
+2960125703.index
+277615286.index

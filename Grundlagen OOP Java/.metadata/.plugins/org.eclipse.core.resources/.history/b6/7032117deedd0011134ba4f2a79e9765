@@ -1,0 +1,36 @@
+
+public class ObjectTest {
+	public static void main(String[] args) {
+		Object obj = new Lampe("L1", "Wohnzimmerlampe");
+		System.out.println("toString()-Methode: "+obj.toString());
+		
+		Geraet g = (Geraet) obj;
+		System.out.println("Name: "+g.getName());
+		System.out.println("An?: "+g.isAn());
+		
+		Lampe l = (Lampe) obj;
+		System.out.println("Helligkeit: "+ l.getHelligkeit());
+		
+		Object[] arr = new Object[3];
+		arr[0] = new Lampe("L2", "Stehlampe");
+		arr[1] = new Object();
+		arr[2] = new Geraet("G1", "Allgemeines Gerät");
+		
+		for (int i = 0; i < arr.length; i++) {
+			if(arr[i] instanceof Object) {
+				System.out.println("\narr["+i+"] zeigt auf ein Objekt vom Typ Object!");
+				System.out.println("toString()-Methode: "+arr[i].toString());
+			}
+			if(arr[i] instanceof Geraet) {
+				System.out.println("\narr["+i+"] zeigt auf ein Objekt vom Typ Geraet!");
+				System.out.println("Gerätename: "+((Geraet)arr[i]).getName());
+			}
+			if(arr[i] instanceof Lampe) {
+				System.out.println("\narr["+i+"] zeigt auf ein Objekt vom Typ Geraet!");
+				System.out.println("Gerätename: "+((Geraet)arr[i]).getName());
+			}
+			
+		}
+	}
+	
+}

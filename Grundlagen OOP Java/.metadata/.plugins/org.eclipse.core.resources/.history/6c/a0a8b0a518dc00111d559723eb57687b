@@ -1,0 +1,3 @@
+public class Fahrrad {
+	private int aktuellerGang = 1;
+}

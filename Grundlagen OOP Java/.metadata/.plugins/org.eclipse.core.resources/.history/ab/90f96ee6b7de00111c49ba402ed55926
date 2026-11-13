@@ -1,0 +1,6 @@
+
+public interface IGeometrischeFigur {
+	public abstract double berechneUmfang();
+	
+	
+}

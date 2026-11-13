@@ -1,0 +1,9 @@
+
+public class LampeV3 {
+	private boolean an;
+	private int helligkeit;
+	
+	public LampeV3() {
+		
+	}
+}

@@ -1,0 +1,44 @@
+// Vorsicht: Achte darauf, dass die Klasse Thermostat auch wirklich von der
+// Klasse Geraet erbt, welche die Schnittstelle Schaltbar implementiert.
+
+public class RaumTest {
+
+    public static void main(String[] args) {
+    	// Raum Wohnzimmer anlegen
+        Raum wohnz = new Raum("")
+    	
+        // Raum Bad anlegen
+        
+
+        // Geräte-Array für 5 Geräte anlegen
+        
+    	
+        // Array mit Referenzen auf 3 Lampen
+        // und zwei Thermostate füllen.
+        
+                
+        // for-each-Schleife zum Iterieren über Array mit
+        // Schleifenreferenz vom Typ Schaltbar.
+        // Jedes Gerät im Array soll eingeschaltet werden.
+        
+        
+
+        // Dem Wohnzimmer drei Geräte hinzufügen:
+        
+        
+        
+        // Dem Bad 2 Geräte hinzufügen:
+                
+        
+        // Gerätekonfiguration von Wohnzimmer und Bad
+        // auf dem Bildschirm ausgeben.
+        
+        
+        // Wohnzimmer und Bad in den Energiesparmodus setzen.
+        
+                
+        // Gerätekonfiguration von Wohnzimmer und Bad
+        // auf dem Bildschirm ausgeben.
+        
+    }
+}

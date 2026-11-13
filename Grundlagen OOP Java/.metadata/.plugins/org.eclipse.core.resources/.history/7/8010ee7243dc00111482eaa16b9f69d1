@@ -1,0 +1,12 @@
+public class PizzaMargheritaTest {
+	public static void main(String[] arg) {
+		String bezeichnung = "Pizza Margherita";
+		long preisInCent = 890;
+		int lieferzeitInMinuten;
+		String bestellhinweis = "ohne Knoblauch";
+		boolean lieferbar = true;
+		
+		System.out.println("Bezeichnung: "+ bezeichnung);
+		System.out.println("Preis: %d,%02d €")
+	}
+}

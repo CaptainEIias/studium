@@ -1,0 +1,18 @@
+public abstract class GeometrischeFigur{
+	private String name;
+	
+	
+	public GeometrischeFigur(String name) {
+		this.name = name;
+	}
+	public abstract double berechneUmfang();
+	public abstract double berechneFlaecheninhalt();
+	
+	@Override
+	public String toString() {
+		return "Name: "+name+","
+				+ " Umfang: "+berechneUmfang()+", "
+						+ "Flächeninhalt: "+berechneFlaecheninhalt();
+	}
+	
+}

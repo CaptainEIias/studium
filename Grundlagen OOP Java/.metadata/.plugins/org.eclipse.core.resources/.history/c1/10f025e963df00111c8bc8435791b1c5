@@ -1,0 +1,14 @@
+
+public class RaumTest {
+	public static void main(String[] args) {
+		Raum wohnzimmer = new Raum("R1", "Wohnzimmer");
+		
+		try {
+			for(int i = 0; i<=11; i++) {
+				wohnzimmer.geraetHinzufuegen(new Lampe("L"+(i+1)+));
+			}
+		}
+		
+	}
+
+}

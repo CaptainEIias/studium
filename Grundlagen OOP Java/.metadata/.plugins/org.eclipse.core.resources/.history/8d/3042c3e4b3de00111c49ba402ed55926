@@ -1,0 +1,26 @@
+
+public class Lampe extends Geraet implements Dimmbar{
+	public static final int MAX_HELLIGKEIT = 100;
+	private int helligkeit;
+	
+	public Lampe(String geraetId, String name) {
+		super(geraetId, name);
+		helligkeit = MAX_HELLIGKEIT;
+	}
+	
+	public int getHelligkeit() {
+		return helligkeit;
+	}
+	
+	public void dimmen(int prozent) {
+		if(prozent < 0) {prozent = 0;}
+		if(prozent > MAX_HELLIGKEIT) {prozent=MAX_HELLIGKEIT;}
+		helligkeit = prozent;
+	}
+	
+	@Override
+	public String toString() {
+		return "Lampe: "+super.toString()+", Helligkeit: "+helligkeit;
+	}
+	
+}

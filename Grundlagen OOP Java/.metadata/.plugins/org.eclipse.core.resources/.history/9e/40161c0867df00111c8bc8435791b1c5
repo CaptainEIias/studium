@@ -1,0 +1,8 @@
+
+public class RaumTest {
+	public static void main(String[] args) {
+		Raum room = new Raum("W","Wohnzimmer");
+		
+	}
+
+}

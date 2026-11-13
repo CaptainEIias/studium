@@ -1,0 +1,7 @@
+public class PizzaMargheritaTest {
+	public static void main(String[] arg) {
+		String bezeichnung = "Pizza Margherita";
+		long preisInCent = 890
+				
+	}
+}

@@ -1,0 +1,11 @@
+public class FahrradTest{
+	public static void main(String[] args){
+		Fahrrad f1 = new Fahrrad();
+		f1.hochSchalten();
+		f1.hochSchalten();
+		f1.lichtAnschalten();
+		
+		System.out.println("Fahrrad 1: " + f1.getAktuellerGang() + ".ter Gang" + ", Licht an = "+f1.isBeleuchtungAn());
+		
+	}
+}

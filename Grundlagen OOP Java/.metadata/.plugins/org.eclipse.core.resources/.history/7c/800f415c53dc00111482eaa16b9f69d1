@@ -1,0 +1,28 @@
+public class DurchschnittsTemperatur{
+	public static void main(String[] args) {
+		int[] temperaturen = {18, 20, 17, 21, 19, 23, 22};
+		
+		int summe1 = 0;
+		for (int i = 0; i<temperaturen.length; i++) {
+			summe1 += temperaturen[i];
+		}
+		double durchschnitt1 = (double) summe1/ temperaturen.length;
+		System.out.println("Durchschnitt (for): "+ durchschnitt1);
+		
+		int summe2 = 0;
+		int j = 0;
+		while (j<temperaturen.length) {
+			summe2 += temperaturen[j];
+			j++;
+		}
+		double durchschnitt2 = (double) summe2 / temperaturen.length;
+		System.out.println("Durchschnitt (while): "+ durchschnitt2);
+		
+		int summe3 = 0;
+		for (int temperaturWert : temperaturen) {
+			summe3 += temperaturWert;
+		}
+		double durchschnitt3 = (double) summe3 / temperaturen.length;
+		
+	}
+}

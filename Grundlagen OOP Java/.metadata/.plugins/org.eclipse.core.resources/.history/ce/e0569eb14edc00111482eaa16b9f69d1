@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class PizzaBestellungTest{
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Weche Pizza möchtest Du bestellen?");
+		System.out.print("Wähle: Margherita, Funghi, Salami, Hawaii: ");
+		String auswahl = scanner.nextLine();
+		
+		switch(auswahl) {
+		case "Margherita":
+			System.out.println("Magherita - Preis 8,50");
+			break;
+		case "Funghi":
+			System.out.println("Funghi - Preis 9");
+			break
+		default:
+			System.out.print("nö");
+			
+		}
+		
+	}
+}

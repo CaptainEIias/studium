@@ -1,0 +1,11 @@
+package Übung;
+
+public class RaumTest {
+
+	public static void main(String[] args) {
+		Raum R1 = new Raum();
+		
+
+	}
+
+}

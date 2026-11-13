@@ -1,0 +1,12 @@
+
+public class LampeV4 {
+	public static final int MAX_HELLIGKEIT = 100;
+	private static int LampenAnzahl = 0;
+	private boolean an = false;
+	private int helligkeit = 0;
+	
+	public LampeV4() {
+		LampenAnzahl++
+	}
+	
+}

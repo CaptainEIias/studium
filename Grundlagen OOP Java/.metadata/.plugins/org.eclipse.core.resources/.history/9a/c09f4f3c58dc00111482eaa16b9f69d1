@@ -1,0 +1,13 @@
+
+public class MinWertMethode {
+
+	public static void main(String[] args) {
+		int[] arr1 = {5,8,2,15,7,1,22,3,14,9};
+
+	}
+	
+	public static int berechneMinimalwert(int[] arr) {
+		
+	}
+
+}

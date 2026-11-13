@@ -1,0 +1,4 @@
+
+public class Lampe extends Geraet{
+	
+}

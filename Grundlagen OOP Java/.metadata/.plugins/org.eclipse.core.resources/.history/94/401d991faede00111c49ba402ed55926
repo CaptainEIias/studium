@@ -1,0 +1,9 @@
+
+public class UE_GeometrischeFigurTest {
+
+	public static void main(String[] args) {
+		GeometrischeFigur[] figuren = new GeometrischeFigur[3];
+
+	}
+
+}

@@ -1,0 +1,17 @@
+
+public class Kreis extends GeometrischeFigur{
+	private double r;
+	
+	public Kreis(String name, double radius) {
+		super(name);
+		r = radius;
+	}
+	
+	@Override
+	public double berechneUmfang() {
+		return 2 * Math.PI * r;
+	}
+	public double berechneFlaecheninhalt() {
+		return Math.PI * (r*r);
+	}
+}

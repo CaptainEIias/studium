@@ -1,0 +1,23 @@
+package Übung;
+
+public class RaumTest {
+
+	public static void main(String[] args) {
+		// Raum 1
+		Raum R1 = new Raum("R1", "1");
+		Lampe L1 = new Lampe("L1","L1");
+		Lampe L2 = new Lampe("L2","L2");
+		Thermostat T1 = new Thermostat("T1","T1");
+		
+		R1.geraetHinzufuegen(L1);
+		R1.geraetHinzufuegen(L2);
+		R1.geraetHinzufuegen(T1);
+		
+		System.out.println(R1.toString());
+
+		
+		
+
+	}
+
+}

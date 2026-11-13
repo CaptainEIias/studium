@@ -1,0 +1,14 @@
+package Übung;
+
+public class RaumTest {
+
+	public static void main(String[] args) {
+		// Raum 1
+		Raum R1 = new Raum("R1", "1");		
+		Thermostat T1 = new Thermostat()
+		
+		
+
+	}
+
+}

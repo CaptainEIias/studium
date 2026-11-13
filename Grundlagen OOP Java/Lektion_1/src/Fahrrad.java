@@ -1,0 +1,28 @@
+public class Fahrrad {
+	private int aktuellerGang = 1;
+	private boolean beleuchtungAn = false;
+	
+	public void hochSchalten() {
+		aktuellerGang += 1;
+	}
+	
+	public void runterSchalten() {
+		aktuellerGang -= 1;
+	}
+	
+	public void lichtAnschalten() {
+		beleuchtungAn = true;
+	}
+	
+	public void lichtAusschalten() {
+		beleuchtungAn = false;
+	}
+	
+	public int getAktuellerGang() {
+		return aktuellerGang;
+	}
+	
+	public boolean isBeleuchtungAn() {
+		return beleuchtungAn;
+	}
+}
